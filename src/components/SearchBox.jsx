@@ -1,10 +1,11 @@
+import './css/SearchBox.css';
 
 const SearchBox = ({searchfield, searchChange}) => {
 	return (
-		<div className="pa2">
+		<div className="SearchBox">
 			<input
 				type="search"
-				placeholder="search robots"
+				placeholder="Search Robots"
 				onChange={searchChange}
 			/>
 		</div>

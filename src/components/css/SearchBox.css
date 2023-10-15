@@ -1,0 +1,11 @@
+input {
+	padding: 0.8rem;
+	text-align: center;
+	font-style: bold;
+	border-radius: 0.8rem;
+	border-color: transparent;
+	background-color: #00b09b;
+	font-size: 1.4rem;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+}

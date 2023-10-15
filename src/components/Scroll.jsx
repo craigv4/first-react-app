@@ -2,9 +2,10 @@ const Scroll = (props) => {
 	return (
 		<div
 			style={{
-				overflow: 'scroll',
+				overflowY: 'scroll',
 				// border: 'solid black',
-				height: '600px',
+				height: '500px',
+				'scrollbar-color': '#00b09b',
 			}}>
 			{props.children}
 		</div>
